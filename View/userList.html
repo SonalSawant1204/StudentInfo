@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+   
+
+
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h3>User List</h3>
+       <div id="retriveData"></div>
+        
+        </div>
+    </div>
+
+
+    <!-- javascript files -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="helper/allFunctions.js"></script>
+
+
+    <script>
+    $(document).ready(()=>{
+    
+    retriveData();
+    
+    // ('form[name="formUpdate"]').submit(event=>{
+    //     event.preventDefault();
+        
+    // });
+    
+
+    });
+
+
+
+    const userUpdate=(rollno,name,marks)=>{
+        $('#retriveData').html(createUpdateUI(rollno,name,marks));
+    }
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,18 @@
+.error {color: #FF0000;}
+.main {
+  margin : auto;
+  width : 75%;
+  background : #f2f2f2;
+}
+.content{
+  margin:auto;
+  padding-left:20px;
+  padding-right:20px;
+}
+table{
+  border-collapse: unset;
+  border-spacing: 20px;
+}
+h2 {
+  text-align: center;
+}
